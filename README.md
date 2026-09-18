@@ -74,7 +74,7 @@ The `skills/` directory is the library's source layout. It is not automatically 
 
 1. Download or clone this repository, or extract the supplied starter archive.
 2. Read the selected skill's README and `SKILL.md`, including any scripts and external-service requirements.
-3. Copy the **whole skill folder** for the simplest installation, keeping relative paths intact. For a smaller Layered Photoshop installation, keep `SKILL.md` and its four generic reference files; follow the skill's [required/optional file guide](skills/layered-photoshop/README.md#keep-execution-files-separate-from-optional-material) before omitting templates, tests, or human documentation.
+3. Copy the **whole skill folder** for the simplest installation, keeping relative paths intact. For a smaller Layered Photoshop installation, keep `SKILL.md`, `LICENSE`, and its four generic reference files; follow the skill's [required/optional file guide](skills/layered-photoshop/README.md#keep-execution-files-separate-from-optional-material) before omitting templates, tests, or human documentation.
 4. Install only in an environment whose tool access and permissions you understand.
 5. Confirm that the agent can find the skill, read a supporting file, and report its actual capabilities before expensive work.
 
@@ -170,7 +170,9 @@ Use the [frontmatter guide](docs/skill-format.md) and [template](templates/SKILL
 
 Keep private source images, credentials, generated client work, font binaries, and application caches out of this repository. Review the actual files before committing; `.gitignore` is a convenience, not a privacy review.
 
-**No repository license has been selected in this starter.** Select a license and add its terms before describing the project as open source or inviting reuse on those terms. GitHub's [licensing guide][github-license] explains the distinction between publishing a repository and licensing it. Do not assume that a repository license also covers third-party fonts, photos, logos, or other assets.
+Original skill instructions, documentation, prompts, templates, and code are available under the [MIT License](LICENSE), copyright (c) 2026 monostronomy, to the extent the contributors hold the applicable rights. Identify third-party material separately and retain its applicable terms and notices.
+
+Independent artwork is not required to use MIT merely because it was produced using a skill. Repository material copied into an output remains subject to its applicable license. Image inputs, photographs, fonts, other third-party assets, and service terms remain separate. Include the skill folder's `LICENSE` when distributing a standalone skill, including a minimal package.
 
 This library is an independent project, not an Adobe, OpenAI, or Anthropic product. Compatibility instructions describe intended integration paths, not vendor endorsement or completed certification.
 

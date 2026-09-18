@@ -1,5 +1,6 @@
 ---
 name: new-skill
+license: MIT
 description: >-
   Replace this text with the specific task and the user requests that should
   trigger it. State a meaningful boundary so unrelated requests do not match.

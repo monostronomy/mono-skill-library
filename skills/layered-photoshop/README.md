@@ -53,6 +53,7 @@ Use the following boundary when installing or maintaining the skill:
 
 | Files | Role | Needed for ordinary execution? |
 |---|---|---|
+| `LICENSE` | MIT terms and copyright notice | Include in every distribution. |
 | `SKILL.md` | Entry point, routing, source protection, layer planning, and delivery requirements | Yes. |
 | `references/decompose.md` | Source-preserving separation and typography procedure | Yes for decomposition; keep it in the two-mode distribution. |
 | `references/generate-layer-first.md` | Independent asset generation and assembly procedure | Yes for layer-first work; keep it in the two-mode distribution. |
@@ -68,6 +69,7 @@ Keep this minimal execution layout when preparing a smaller two-mode distributio
 ```text
 layered-photoshop/
 ├── SKILL.md
+├── LICENSE
 └── references/
     ├── decompose.md
     ├── generate-layer-first.md
@@ -378,7 +380,9 @@ Read [SKILL.md](SKILL.md) for agent instructions, [PROMPTS.md](PROMPTS.md) for t
 
 ## License and asset rights
 
-No license has been selected for this draft. Follow the license supplied by the repository maintainer before redistribution or reuse on licensed terms. Keep image rights, third-party assets, font permissions, and service terms separate from the skill's documentation license. Do not publish private client inputs or font binaries as test fixtures.
+Original material in this skill is available under the [MIT License](LICENSE), copyright (c) 2026 monostronomy, to the extent the contributors hold the applicable rights. Include this license and its notices in standalone distributions, including minimal packages. Identify third-party material separately and retain its applicable terms.
+
+Independent artwork does not become MIT-licensed merely by using this workflow; repository material copied into an output remains subject to its applicable license. Keep image rights, third-party assets, font permissions, and service terms separate. Do not publish private client inputs or font binaries as test fixtures.
 
 [codex]: https://developers.openai.com/codex/skills/
 [claude]: https://code.claude.com/docs/en/skills

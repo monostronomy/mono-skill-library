@@ -1,5 +1,9 @@
 # Layered Photoshop changelog
 
+## Unreleased
+
+- Apply MIT with copyright (c) 2026 monostronomy; include standalone license notices and clarify third-party material and independent artwork scope.
+
 ## 0.1.2 — 2026-09-18
 
 - Remove the originating case-history reference and every runtime dependency on a previous image or conversation.
