@@ -1,0 +1,75 @@
+{
+  "_template_note": "Set a test status only after performing that test or receiving attributed evidence. This template is not a completed validation.",
+  "artifact": {
+    "file": null,
+    "sha256": null,
+    "size_bytes": null
+  },
+  "source_category": null,
+  "workflow": null,
+  "writer": {
+    "name": null,
+    "version": null
+  },
+  "counts": {
+    "content_layers": null,
+    "groups": null,
+    "live_text_layers": null,
+    "editable_masks": null
+  },
+  "checks": {
+    "input_integrity": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "alpha_and_edges": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "psd_structure": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "independent_decode": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "actual_layer_stack_render": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "source_fidelity_or_design_review": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "native_photoshop_open": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "native_text_edit": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "native_mask_edit": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "component_move": {
+      "status": "not_run",
+      "evidence": null
+    },
+    "native_save_reopen": {
+      "status": "not_run",
+      "evidence": null
+    }
+  },
+  "native_environment": {
+    "photoshop_version": null,
+    "operating_system": null,
+    "evidence_source": null
+  },
+  "font_substitutions": [],
+  "reconstructed_regions": [],
+  "known_limitations": [],
+  "approval_exceptions": []
+}

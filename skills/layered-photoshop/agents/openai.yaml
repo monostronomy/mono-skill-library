@@ -1,0 +1,4 @@
+interface:
+  display_name: "Layered Photoshop"
+  short_description: "Plan image decomposition or layer-first Photoshop artwork."
+  default_prompt: "Use $layered-photoshop to plan and produce editable image components and a layered PSD. Check the available tools first, preserve source fidelity, and report validation evidence."

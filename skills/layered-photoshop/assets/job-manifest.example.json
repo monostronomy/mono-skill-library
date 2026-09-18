@@ -1,0 +1,131 @@
+{
+  "_template_note": "Replace all example settings, names, paths, dimensions, fonts, and layer counts with current-job values. This optional planning manifest is not an implemented writer API or a completed job.",
+  "schema_version": "0.1.0",
+  "mode": "decompose",
+  "document": {
+    "name": "Example layered artwork",
+    "width_px": 1536,
+    "height_px": 1024,
+    "resolution_ppi": 72,
+    "color_mode": "RGB",
+    "bit_depth": 8,
+    "icc_profile": "sRGB IEC61966-2.1",
+    "background": {
+      "color_rgb": [
+        0,
+        0,
+        0
+      ],
+      "visible": false,
+      "locked": true
+    }
+  },
+  "source": {
+    "file": "input/source.png",
+    "sha256": null,
+    "original_profile": null
+  },
+  "fidelity": {
+    "policy": "visible-source-only",
+    "allow_generated_completion": false,
+    "allow_text_plate_cleanup": false,
+    "intentional_changes": []
+  },
+  "coordinates": {
+    "origin": "top-left",
+    "units": "pixels",
+    "bounds_order": [
+      "left",
+      "top",
+      "right",
+      "bottom"
+    ],
+    "layer_order": "bottom-to-top in this manifest; translate for writer as needed"
+  },
+  "layers": [
+    {
+      "id": "background",
+      "name": "Background",
+      "kind": "solid-fill",
+      "color_rgb": [
+        0,
+        0,
+        0
+      ],
+      "visible": false,
+      "locked": true,
+      "origin": "native"
+    },
+    {
+      "id": "subject",
+      "name": "Subject - visible-source cutout",
+      "kind": "raster",
+      "asset": "assets/subject.png",
+      "mask": "masks/subject.png",
+      "bounds_px": [
+        300,
+        100,
+        1000,
+        950
+      ],
+      "opacity": 1.0,
+      "blend_mode": "normal",
+      "visible": true,
+      "complete_object": false,
+      "origin": "source-extracted",
+      "occluded_by": [],
+      "group": "Subjects"
+    },
+    {
+      "id": "title",
+      "name": "Title - editable text",
+      "kind": "text",
+      "text": "EXAMPLE",
+      "font_postscript_name": "REPLACE_WITH_VERIFIED_FONT",
+      "font_identification": "selected replacement",
+      "font_size_pt": 36,
+      "position_px": [
+        80,
+        120
+      ],
+      "position_anchor": "baseline-left",
+      "color_rgb": [
+        255,
+        255,
+        255
+      ],
+      "visible": true,
+      "origin": "native",
+      "group": "Typography"
+    },
+    {
+      "id": "reference",
+      "name": "Original - reference only",
+      "kind": "raster",
+      "asset": "input/source.png",
+      "visible": false,
+      "locked": true,
+      "origin": "original-reference",
+      "group": "Reference"
+    }
+  ],
+  "export": {
+    "format": "PSD",
+    "backend": null,
+    "backend_version": null,
+    "output": "output/artwork.psd",
+    "preview": "output/composite-preview.png",
+    "include_asset_bundle": true
+  },
+  "budget": {
+    "generation_calls_max": null,
+    "retries_per_component_max": null,
+    "paid_work_authorized": false
+  },
+  "validation": {
+    "require_structural_parse": true,
+    "require_actual_layer_render": true,
+    "native_photoshop_open": "not_run",
+    "native_edit_save_reopen": "not_run"
+  }
+}
