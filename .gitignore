@@ -1,0 +1,37 @@
+# Keep local installation copies separate from the canonical skill source.
+/.agents/skills/
+/.claude/skills/
+
+# Keep job inputs, private material, and generated production files local.
+/input/
+/inputs/
+/output/
+/outputs/
+/work/
+/private/
+*.psd
+*.psb
+
+# Keep credentials and local environment configuration out of version control.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Keep temporary files and caches out of the library.
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Keep font binaries out of the distributed library.
+*.ttf
+*.otf
+*.ttc
+*.woff
+*.woff2
