@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Apply MIT with copyright (c) 2026 monostronomy; include standalone license notices and clarify third-party material and independent artwork scope.
+
 ## Starter revision 0.1.2 — 2026-09-18
 
 * Create new public repository

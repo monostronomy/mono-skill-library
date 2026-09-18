@@ -14,7 +14,7 @@ Follow the [Agent Skills specification][spec]. Apply these constraints when auth
 | `description` | State the task and when to use it in 1–1,024 characters. |
 | `compatibility` | Add environment requirements when needed; keep this optional string within 500 characters. |
 | `metadata` | Store optional custom fields as string-to-string entries; quote version values. |
-| `license` | Add an optional license name or reference only after selecting the actual terms. |
+| `license` | Use top-level `license: MIT` for original library material and include `LICENSE` in the skill folder; identify third-party exceptions separately. |
 | `allowed-tools` | Treat this optional field as experimental and host-dependent; omit it unless its behavior is understood. |
 
 Use the exact filename `SKILL.md` for this library. Keep the header as YAML rather than JSON or a fenced example inside the actual skill file. Put the body's first heading after the closing delimiter.

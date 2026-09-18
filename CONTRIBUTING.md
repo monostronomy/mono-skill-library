@@ -10,7 +10,7 @@
 ## Add a skill
 
 1. Create `skills/<skill-name>/` and copy [the template](templates/SKILL.template.md) to `SKILL.md` inside it.
-2. Set a matching name and clear trigger description using [the header guide](docs/skill-format.md).
+2. Set a matching name and clear trigger description using [the header guide](docs/skill-format.md). Use the top-level `license: MIT` field for original library material and copy the root `LICENSE` into the skill folder for standalone distribution. Identify any third-party exceptions and preserve their terms and notices.
 3. Write a human-facing README covering the problem, best use cases, installation, requirements, first run, deliverables, limits, and validation evidence.
 4. Write every operating rule as an action to take; make the instructions understandable without prior conversations.
 5. Keep the scope focused on one coherent job or closely related modes sharing an output contract.

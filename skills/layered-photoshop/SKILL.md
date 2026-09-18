@@ -1,5 +1,6 @@
 ---
 name: layered-photoshop
+license: MIT
 description: >-
   Create layered Photoshop documents from existing images or new layer-first
   artwork. Use when asked to separate, explode, or decompose an image into PSD
